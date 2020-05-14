@@ -39,10 +39,6 @@ Argparse library simplifies the input data process to start the program. Time is
 
 
 ## Specification
-To make possible the walk of WebCrawler through the website it’s needed to have on computer one of some web drivers, for example ChromeDriver, and show the way to that driver on disc in __init__() function:
-
-`self.driver_path = "C:\\chromedriver\\chromedriver.exe"`
-
 Walk_control() function contains screenshot_path variable that you may change for other way of saving images:
 
 `screenshot_path = "C:\\Screenshots\\"`

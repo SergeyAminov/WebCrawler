@@ -10,7 +10,7 @@ class WebCrawler:
     def __init__(self):
         """Initialize new web crawler with empty attributes"""
 
-        self.driver_path = "C:\\chromedriver\\chromedriver.exe"
+        self.driver_path = "chromedriver/chromedriver.exe"
         self.screenshots_path = None
         self.urls_need_to_go = list()
         self.all_checked_urls = list()
